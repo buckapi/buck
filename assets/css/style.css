@@ -1051,8 +1051,8 @@ p {
     justify-content: flex-end; }
     @media (max-width: 767px) {
       .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info {
-        justify-content: end;
-        margin-top: 0px; } }
+        justify-content: center;
+        margin-top: 20px; } }
     @media only screen and (min-width: 1200px) and (max-width: 1600px) {
       .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info .header-mini-btn {
         margin-right: 15px; } }
@@ -1098,7 +1098,7 @@ p {
 .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 {
   top: 5px;
   background: #fff;
-  padding: 15px 60px;
+  padding: 25px 60px;
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05); }
   .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2.header-main-nav-layout-4 {
     top: 45px;
@@ -1115,7 +1115,7 @@ p {
     text-align: left; }
     @media (max-width: 767px) {
       .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .logo-white {
-        text-align: left; } }
+        text-align: center; } }
   .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .header-main-nav-box ul li a {
     color: #6c6a72; }
     .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .header-main-nav-box ul li a::before {
