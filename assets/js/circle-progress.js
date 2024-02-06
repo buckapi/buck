@@ -39,7 +39,7 @@ License: MIT
 
 
         fill: {
-            gradient: ['#5f2dee', '#5f2dee']
+            gradient: ['#1774ed', '#1774ed']
         },
 
         /**

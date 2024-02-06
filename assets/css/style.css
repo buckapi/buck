@@ -134,7 +134,7 @@ p {
   padding: 0 50px;
   font-size: 14px;
   line-height: 60px;
-  border-radius: 0px;
+  border-radius: 10px;
   color: #fff;
   cursor: pointer;
   z-index: 5;
@@ -1550,8 +1550,11 @@ p {
     .infetech-banner-area-layout-2.infetech-banner-area-layout-3 .infetech-banner-slide-item .infetech-banner-content span {
       font-weight: 800;
       color: #378cbb;
-      text-transform: uppercase;
-      letter-spacing: 2.5px; }
+      text-transform: full-size-kana;
+      letter-spacing: 2.5px;
+      padding-bottom: 35px;
+      padding-top: 35px;
+    }
     .infetech-banner-area-layout-2.infetech-banner-area-layout-3 .infetech-banner-slide-item .infetech-banner-content .title {
       color: #1d1729;
       font-size: 100px;
@@ -1637,7 +1640,7 @@ p {
       width: 86px;
       text-align: center;
       line-height: 86px;
-      background: rgba(95, 45, 238, 0.5);
+      background: rgb(55, 140, 187);
       border-radius: 50%;
       color: #fff;
       position: relative; }
@@ -2365,14 +2368,16 @@ p {
 
 .single-service-3-item {
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
-  padding: 40px 116px 40px 40px;
-  background-image: url(../images/service-bg.jpg);
+  padding: 40px 116px 40px 40px;/* 
+  background-image: url(../images/service-bg.jpg); */
+  background-color: #378cbb99;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
   z-index: 10;
-  transition: all linear 0.3s; }
+  transition: all linear 0.3s;
+  border-radius: 10px; }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .single-service-3-item {
       padding: 40px 70px 40px 40px; } }
@@ -2390,9 +2395,10 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background: #fff;
+    background: #f2f0f7;
     z-index: -1;
-    transition: all linear 0.3s; }
+    transition: all linear 0.3s;
+    border-radius: 10px; }
   .single-service-3-item::before {
     position: absolute;
     content: '';
@@ -2409,7 +2415,8 @@ p {
     font-weight: 300;
     font-size: 60px;
     color: #e4e0ee;
-    transition: all linear 0.3s; }
+    transition: all linear 0.3s;
+    border-radius: 10px; }
   .single-service-3-item .title {
     font-size: 24px;
     text-transform: uppercase;
@@ -2431,7 +2438,8 @@ p {
     box-shadow: none;
     transform: translateY(-10px); }
     .single-service-3-item:hover .bg {
-      opacity: 0; }
+      opacity: 0;
+      border-radius: 10px; }
     .single-service-3-item:hover .title {
       color: #fff; }
     .single-service-3-item:hover p {
@@ -5314,13 +5322,13 @@ p {
   border: 1px solid #378cbb; }
 
 .infetech-clients-3-area {
-  padding-top: 112px;
-  padding-bottom: 120px;
-  background: #f2f0f7; }
+  padding-top: 60px;
+  padding-bottom: 5px;
+  /* background: #f2f0f7; */ }
   @media (max-width: 767px) {
     .infetech-clients-3-area {
-      padding-top: 60px;
-      padding-bottom: 150px; } }
+/*       padding-top: 60px;
+ */      padding-bottom: 5px; } }
 
 .single-service-3-item.clients-3-item {
   margin: 3px;
@@ -5544,7 +5552,7 @@ p {
       padding-top: 85px; }
     .infetech-information-area .information-thumb .thumb::before {
       position: absolute;
-      content: 'missions';
+      content: 'Misión';
       left: -185px;
       top: 135px;
       font-size: 30px;
@@ -5561,7 +5569,7 @@ p {
         padding-right: 60px;
         margin-top: 85px; }
       .infetech-information-area .information-thumb .thumb.thumb-2::before {
-        content: 'visions';
+        content: 'Visión';
         left: auto;
         right: -70px;
         transform: rotate(90deg); }
@@ -6099,7 +6107,8 @@ p {
 ===========================*/
 @media (max-width: 767px) {
   .infetech-home-contact {
-    padding-bottom: 70px; } }
+    padding-bottom: 60px;
+  padding-top: 60px; } }
 
 .home-contact-leftbar .contact-content-item {
   display: flex;
@@ -6515,12 +6524,12 @@ p {
     21.SERVING css 
 ===========================*/
 .infetech-serving-area {
-  background-image: url(../images/serving-bg.jpg);
+ /*  background-image: url(../images/serving-bg.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 113px;
-  padding-bottom: 180px; }
+  padding-top: 60px;
+  padding-bottom: 20px; }
   .infetech-serving-area .section-title {
     margin-bottom: 55px; }
 
